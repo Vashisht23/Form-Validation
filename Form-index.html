@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Form Validator</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+<div class="container">
+	<form id="form" class="form" >
+		
+			<h1>Register Here</h1>
+
+		<div class="form-control">
+			<label for="text" class="label">First Name:</label>
+			<input type="text" id="firstname" placeholder="FirstName" required>
+			<small>Error message</small>
+		</div>
+
+		<div class="form-control">
+			<label for="text" class="label">Lastname:</label>
+		   	<input type="text" id="lastname" placeholder="Lastname" required>
+			<small>Error message</small>
+		</div>
+
+		<div class="form-control">
+			<label for="password" class="label">Password</label>
+			<input type="password" placeholder="Password" id="password">	
+			<small>Error message</small>
+
+		</div>
+		
+		<div class="form-control">
+			<label for="password2" class="label">Confirm Password</label>
+		<input type="Confirm Password"  id="confirm-password" placeholder="Type Again" >
+		<small>Error message</small>
+
+		</div>
+	    
+	    <div class="form-control">
+	    	<label class="label"> Email:</label>
+			<input type="Email" id="email" placeholder="Enter Your Email" required>
+			<small>Error message</small>
+	    </div>
+		
+		<button type="submit">Submit</button>
+		</form>
+</div>
+
+</body>
+</html>

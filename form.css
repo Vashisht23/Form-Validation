@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+	box-sizing: border-box;
+
+}
+
+.label{
+	display: flex;
+	justify-content: center;
+	
+	display: inline-block;
+	padding: 3px;
+}
+.button{
+	padding: 10px 25px;
+}
