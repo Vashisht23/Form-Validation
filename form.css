@@ -5,13 +5,37 @@
 
 }
 
-.label{
+body{
+	background-color: #f9fafb;
+	font-family: ' open sans' , sans-serif ;
 	display: flex;
+	align-items: center;
 	justify-content: center;
-	
-	display: inline-block;
-	padding: 3px;
+
+	min-height: 100vh;
+	margin: 0;
 }
-.button{
-	padding: 10px 25px;
+
+.form{
+	background-color: #fff ;
+	padding: 30px 40px;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .3);
+	border-radius: 5px;
+	width: 400px;
+}
+
+h1{
+	text-align: center;
+	margin: 0 0 20px;
+}
+
+.form-control{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.form-control label {
+	color:  #777;
+	display: block;
+	margin-bottom: 5px;
 }
